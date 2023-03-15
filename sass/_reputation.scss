@@ -1,0 +1,52 @@
+.reputation {
+    padding: 60px 0 84px;
+
+    .reputation-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+
+
+        /* Neutral/800 */
+
+        color: #292E3D;
+        margin-bottom: 50px;
+    }
+
+    .reputation-list {
+        gap: 66px;
+
+        .reputation-list-item {
+            padding: 20px 20px 40px;
+            gap: 18px;
+            background: #FFFFFF;
+            /* Neutral/100 */
+            max-width: 292px;
+            border: 1.4px solid #E0E3EB;
+            border-radius: 4px;
+
+            .reputation_list-title {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+
+                /* Neutral/700 */
+
+                color: #3D445C;
+                margin: 18px 0;
+
+            }
+
+            .reputation_list-description {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+
+                /* Neutral/400 */
+
+                color: #858EAD;
+
+            }
+        }
+    }
+}

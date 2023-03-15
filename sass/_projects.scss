@@ -1,0 +1,123 @@
+.projects {
+    padding: 88px 0 138px;
+
+    .projects-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+
+        /* Neutral/800 */
+
+        color: #292E3D;
+        margin-bottom: 40px;
+    }
+
+    .projects_item {
+        width: 100%;
+        gap: 165px;
+
+        .projects-link {
+            gap: 20px;
+
+            .projects-item {
+
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;
+                text-align: center;
+                gap: 16px;
+                /* Neutral/200 */
+
+                color: #C2C7D6;
+
+                .projects-rectangle {
+                    width: 4px;
+                    height: 28px;
+
+                    /* Primary */
+
+                    background: #2947A9;
+                    opacity: 0;
+                }
+
+                &.active {
+                    color: #2947A9 !important;
+
+                    .projects-rectangle {
+                        opacity: 1 !important;
+                    }
+                }
+            }
+
+        }
+
+        .projects-handle {
+            .projects-handle-top {
+                gap: 32px;
+
+                .projects-handle-top-item {
+                    width: 384px;
+                    height: 331px;
+
+                    background: url(../image/unsplash_8oRCwrBn_Fc.png) center center no-repeat;
+                    background-size: cover;
+                    border-radius: 2px;
+
+                    .projects-handle-top-container {
+                        padding: 12px;
+                        background: #2947A9;
+
+                        .projects-handle-top-title {
+
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 23px;
+
+                            /* Neutral/White */
+                            margin-bottom: 12px;
+                            color: #FFFFFF;
+
+                        }
+
+                        .projects-handle-top-description {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 21px;
+
+                            /* Neutral/White */
+
+                            color: #FFFFFF;
+
+
+                        }
+                    }
+                }
+
+            }
+            .projects-handle-botton {
+                margin-top: 32px;
+                .projects-handle-btn {
+                    padding: 21px 108px;
+                    gap: 10px;
+                    background: #292E3D;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+
+                    /* Neutral/White */
+
+                    color: #FFFFFF;
+
+                }
+                .projects-next-page{
+                    padding: 0 33px;
+                    gap:16px;
+                    .active{
+                        
+                    }
+                }
+            }
+        }
+    }
+}

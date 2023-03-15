@@ -1,0 +1,118 @@
+.form {
+    background: #F6F8F7;
+    padding: 60px 0;
+
+    .form-content {
+
+        .form-title {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+
+            /* Neutral/800 */
+            text-align: center;
+
+            color: #292E3D;
+        }
+
+        .form-description {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+
+            /* Neutral/800 */
+
+            color: #292E3D;
+            margin: 20px 0 38px;
+        }
+
+        .form-controls {
+            gap: 20px 32px;
+            max-width: 600px;
+            margin: 0 auto;
+
+            .form-control-item {
+                background: #FFFFFF;
+                /* Neutral/100 */
+                padding: 10px 8px;
+                border: 1px solid #E0E3EB;
+                border-radius: 4px;
+                width: 280px;
+                outline: none;
+
+            }
+
+
+            .wrap-select {
+                background: #FFFFFF;
+                border: 1px solid #E0E3EB;
+                padding: 10px 8px;
+
+
+                width: 280px;
+                position: relative;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+
+                /* Neutral/300 */
+
+                color: #A3AAC2;
+
+                select {
+                    opacity: 0;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+
+
+            }
+
+
+
+            .form-control-text {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                /* identical to box height */
+                display: block;
+
+                /* Neutral/500 */
+
+                color: #667299;
+            }
+        }
+    }
+}
+
+.form-control-item::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* Neutral/300 */
+
+    color: #A3AAC2;
+
+
+}
+
+.form-control-btn {
+    background: #2947A9;
+    border-radius: 2px;
+    padding: 16px 103px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    /* Neutral/White */
+
+    color: #FFFFFF;
+    margin-top: 28px;
+
+}

@@ -1,0 +1,47 @@
+.consultation {
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/Ads.png) center center no-repeat;
+    background-size: cover;
+
+    .consultation-item {
+        padding: 100px 0 112px;
+
+        .consultation-item-title {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            margin-bottom: 30px;
+            color: #FFFFFF;
+        }
+
+        .consultation-item-description {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+
+            color: #FFFFFF;
+        }
+
+    }
+
+    .consultation-item-btn {
+
+
+
+        /* Neutral/White */
+
+        border: 2px solid #FFFFFF;
+        border-radius: 2px;
+        padding: 16px 20px;
+        background: #ffffff00;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+
+        /* Neutral/White */
+
+        color: #FFFFFF;
+
+    }
+}
